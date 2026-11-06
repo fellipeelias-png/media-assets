@@ -40,3 +40,18 @@ hotmarcas/2026-11/instagram/hotmarcas_2026-11-05_carrossel1_capa.png
 ## Arquivos antigos
 
 Os arquivos soltos na raiz do repositório (`*.mp4`, `post-*.jpg`) são de outro projeto e ficam como estão.
+
+
+## Limpeza automática de arquivos antigos
+
+Sempre que subir arquivos novos, revise os antigos antes de terminar. A limpeza segue estas regras.
+
+Primeiro, consulte no Metricool os posts agendados e publicados e liste os arquivos que cada um usa.
+
+Remova um arquivo antigo somente se o post que o usa já foi publicado e nenhum post agendado ou em rascunho o usa.
+
+Nunca remova, renomeie ou mova arquivo de post agendado.
+
+Nunca remova os arquivos soltos na raiz (*.mp4, post-*.jpg). Eles são de outro projeto.
+
+Ao terminar, informe quais arquivos foram removidos e quais foram mantidos, com o motivo de cada um.
