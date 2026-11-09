@@ -50,7 +50,7 @@ Este repositório é só uma ponte temporária para o agendador. A cópia defini
 
 ### Pasta local
 
-Marca Fellipe (perfil pessoal no LinkedIn): `C:\Users\feeoa\Documents\ai_projects\fellipe-site\public\linkedin\`. As outras marcas usam a pasta local do projeto de cada uma.
+O caminho completo da pasta local não fica registrado aqui, porque este repositório é público. Use sempre o caminho do projeto da marca no computador de quem publica e, ao mostrar o caminho em qualquer lugar, oculte o nome de usuário (`C:\Users\***\...`). Cada marca tem a sua pasta local, que é informada no chat e não neste arquivo.
 
 ### Antes de subir
 
