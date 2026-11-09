@@ -2,6 +2,8 @@
 
 Arquivos públicos de mídia (imagens, PDFs, vídeos) usados para agendar posts nas redes sociais. As ferramentas de agendamento buscam o arquivo por link público, por isso o repositório é aberto. Não coloque aqui nada confidencial.
 
+Os arquivos ficam aqui só até o post ser publicado. A cópia definitiva fica sempre na pasta local do projeto (veja a seção "Cópia local e ciclo de vida do arquivo").
+
 ## Regra de organização (vale para toda marca nova)
 
 Cada marca tem a sua própria pasta. Dentro dela, uma pasta por mês e, dentro do mês, uma pasta por rede social.
@@ -42,16 +44,23 @@ hotmarcas/2026-11/instagram/hotmarcas_2026-11-05_carrossel1_capa.png
 Os arquivos soltos na raiz do repositório (`*.mp4`, `post-*.jpg`) são de outro projeto e ficam como estão.
 
 
-## Limpeza automática de arquivos antigos
+## Cópia local e ciclo de vida do arquivo
 
-Sempre que subir arquivos novos, revise os antigos antes de terminar. A limpeza segue estas regras.
+Este repositório é só uma ponte temporária para o agendador. A cópia definitiva de cada peça fica na pasta local do projeto.
 
-Primeiro, consulte no Metricool os posts agendados e publicados e liste os arquivos que cada um usa.
+### Antes de subir
 
-Remova um arquivo antigo somente se o post que o usa já foi publicado e nenhum post agendado ou em rascunho o usa.
+1. Salve a peça na pasta local do projeto, com a mesma estrutura e o mesmo nome usados aqui (`<marca>/<AAAA-MM>/<rede>/<arquivo>`).
+2. Só depois suba o mesmo arquivo para este repositório.
+3. Use o link público para agendar o post no Metricool.
 
-Nunca remova, renomeie ou mova arquivo de post agendado.
+### Depois da publicação
 
-Nunca remova os arquivos soltos na raiz (*.mp4, post-*.jpg). Eles são de outro projeto.
+1. Consulte no Metricool os posts agendados, em rascunho e publicados e liste os arquivos que cada um usa.
+2. Quando o post já tiver sido publicado, remova o arquivo deste repositório (`git rm`, commit e push na `main`). A cópia local continua guardada.
+3. Mantenha o arquivo enquanto houver qualquer post agendado ou em rascunho que o use.
+4. Nunca remova, renomeie ou mova arquivo de post agendado.
+5. Nunca remova os arquivos soltos na raiz (`*.mp4`, `post-*.jpg`). Eles são de outro projeto.
+6. Ao terminar, informe quais arquivos foram removidos e quais foram mantidos, com o motivo de cada um.
 
-Ao terminar, informe quais arquivos foram removidos e quais foram mantidos, com o motivo de cada um.
+Se a cópia local não existir, não remova o arquivo do repositório. Primeiro salve a cópia local.
