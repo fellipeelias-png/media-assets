@@ -48,9 +48,13 @@ Os arquivos soltos na raiz do repositório (`*.mp4`, `post-*.jpg`) são de outro
 
 Este repositório é só uma ponte temporária para o agendador. A cópia definitiva de cada peça fica na pasta local do projeto.
 
+### Pasta local
+
+Marca Fellipe (perfil pessoal no LinkedIn): `C:\Users\feeoa\Documents\ai_projects\fellipe-site\public\linkedin\`. As outras marcas usam a pasta local do projeto de cada uma.
+
 ### Antes de subir
 
-1. Salve a peça na pasta local do projeto, com a mesma estrutura e o mesmo nome usados aqui (`<marca>/<AAAA-MM>/<rede>/<arquivo>`).
+1. Salve a peça na pasta local do projeto (veja "Pasta local" acima). Se a marca ainda não tiver pasta local, pergunte antes de subir.
 2. Só depois suba o mesmo arquivo para este repositório.
 3. Use o link público para agendar o post no Metricool.
 
