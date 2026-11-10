@@ -68,3 +68,7 @@ O caminho completo da pasta local não fica registrado aqui, porque este reposit
 6. Ao terminar, informe quais arquivos foram removidos e quais foram mantidos, com o motivo de cada um.
 
 Se a cópia local não existir, não remova o arquivo do repositório. Primeiro salve a cópia local.
+
+## Skills
+
+A pasta `skills/` guarda as instruções reutilizáveis de produção. Hoje: `skills/linkedin-video-style/SKILL.md` (vídeos de LinkedIn no estilo dashboard). Não coloque aqui caminhos locais nem dados confidenciais.
